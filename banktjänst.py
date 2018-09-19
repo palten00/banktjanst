@@ -16,6 +16,6 @@ while meny != 4: # sålänge 4 in körs så startar den menyn igen
     elif meny == 2: 
         saldo = saldo - int(input("ta ut pengar ")) #den tar saldot och drar pengar ifrån det
     elif meny == 3:
-        saldo = print("ditt saldo är:", saldo) #visar saldot 
+        saldo = print("ditt saldo är:", saldo) #visar saldo
     elif meny == 4:
-        print("tack för att du har använt oss") # avslutar programmet
+        print("tack för att du har använt oss") # avslutar programmet 
